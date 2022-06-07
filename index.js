@@ -11,7 +11,7 @@ const base64url = require("base64url");
 start();
 async function start() {
   // append conf
-  await appendConf();
+  //await appendConf();
 
   // start lnd
   spawn(`./lnd-${process.platform}`, ["--lnddir=./lnd"]).stdout.on(
