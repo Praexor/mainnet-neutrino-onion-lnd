@@ -44,7 +44,7 @@ or start lnd as daemon
 Or use cert, macaroon (in base64) and socket to [connect](https://github.com/alexbosworth/ln-service#using-grpc)
 
 ## Install & activate tor
-`sudo bash./torify-lnd.sh setup` (installs and runs tor, creates onion-adresses, modifies lnd.conf)
+`sudo bash ./torify-lnd.sh setup` (installs and runs tor, creates onion-adresses, modifies lnd.conf)
 
 `./torify-lnd.sh show_secret` (show keys, url and save to secret_tor.json)
 
