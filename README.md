@@ -10,7 +10,7 @@ A quick way to host a mainnet ln node without syncing the whole blockchain. Crea
 
 ## If you're installing from scratch (ubuntu)
 
-`sudo bash -x ./torify-lnd.sh`
+`sudo bash install.sh`
 
 ## Creates onion-adresses, modifies lnd.conf
 
