@@ -30,7 +30,7 @@ or start lnd as daemon
 
 ## Display secret to connect to zap wallet
 
-`cat ./lnd/secret.json`
+`bash -x ./torify-lnd.sh show_secret`
 
 ```
 {
