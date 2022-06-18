@@ -16,6 +16,10 @@ A quick way to host a mainnet ln node without syncing the whole blockchain. Crea
 
 `sudo bash -x ./torify-lnd.sh setup`
 
+## Start Tor 
+
+`sudo bash -x ./torify-lnd.sh`
+
 ## Install dependencies
 
 `npm install`
