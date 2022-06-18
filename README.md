@@ -28,7 +28,7 @@ or start lnd as daemon
 
 `pm2 start index.js`
 
-## Display secret to connect to zap wallet
+## Display secret to connect to zap or zeus wallet
 
 `sudo bash -x ./torify-lnd.sh show_secret`
 
@@ -46,11 +46,6 @@ or start lnd as daemon
 ![](https://i.imgur.com/FYInPky.png)
 
 Or use cert, macaroon (in base64) and socket to [connect](https://github.com/alexbosworth/ln-service#using-grpc)
-
-## Install & activate tor
-`sudo bash ./torify-lnd.sh setup` (installs and runs tor, creates onion-adresses, modifies lnd.conf)
-
-`./torify-lnd.sh show_secret` (show keys, url and save to secret_tor.json)
 
 Use `lndconnect://` string to connect from mobile client.
 
