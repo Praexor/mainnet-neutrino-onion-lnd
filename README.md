@@ -30,6 +30,8 @@ or start lnd as daemon
 
 ## Display secret to connect to zap or zeus wallet
 
+`cat ./lnd/secret_tor.json`
+
 `sudo bash -x ./torify-lnd.sh show_secret`
 
 ```
