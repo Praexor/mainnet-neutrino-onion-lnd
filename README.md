@@ -6,7 +6,7 @@ A quick way to host a mainnet ln node without syncing the whole blockchain. Crea
 
 `git clone https://github.com/Praexor/mainnet-neutrino-onion-lnd.git`
 
-`mainnet-neutrino-onion-lnd`
+`cd mainnet-neutrino-onion-lnd`
 
 ## If you're installing from scratch (ubuntu)
 
